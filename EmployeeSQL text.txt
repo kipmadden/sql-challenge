@@ -1,0 +1,44 @@
+# Link to schema: https://app.quickdatabasediagrams.com/#/d/8hxFyS
+#  NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+"Departments"
+--
+"dept_no" char(4) PK
+"dept_name" VARCHAR
+
+"Employees"
+--
+"emp_no" INTEGER PK
+"birth_date" DATE
+"first_name" VARCHAR
+"last_name" VARCHAR
+"gender" VARCHAR
+"hire_date" DATE
+
+"Salaries"
+--
+"emp_no" INTEGER PK FK >- "Employees"."emp_no"
+"salary" INTEGER PK
+"from_date" DATE
+"to_date" DATE
+
+"Titles"
+--
+"emp_no" INTEGER PK FK >- "Employees"."emp_no"
+"title" VARCHAR PK
+"from_date" DATE PK
+"to_date" DATE
+
+"dept_emp"
+--
+"emp_no" INTEGER PK FK >- "Employees"."emp_no"
+"dept_no" CHAR(4) PK FK >- "Departments"."dept_no"
+"from_date" DATE
+"to_data" DATE
+
+"dept_manager"
+--
+"dept_no" CHAR(4) PK FK >- "Departments"."dept_no"
+"emp_no" INTERGER PK FK >- "Employees"."emp_no"
+"from_date" DATE
+"to_date" DATE
