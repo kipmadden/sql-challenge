@@ -18,11 +18,10 @@ CREATE TABLE "employees" (
 );
 
 CREATE TABLE "salaries" (
-    "emp_no" INTEGER   NOT NULL,
+    "emp_no" INTEGER   NOT NULL PRIMARY KEY,
     "salary" INTEGER   NOT NULL,
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NOT NULL,
-    PRIMARY KEY ("emp_no","salary"),
     FOREIGN KEY("emp_no") REFERENCES "employees" ("emp_no")
 );
 
