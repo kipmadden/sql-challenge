@@ -1,5 +1,5 @@
 # sql-challenge: SMU Data Science Bootcamp SQL Challenge assignment
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
 
@@ -55,8 +55,10 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. A histogram was created to visualize the most common salary ranges for employees. It was $40,000-$50,000 for the majority of the employees.
 ![Histogram of Salaries](/EmployeeSQL/Salary_Histogram.jpg)
+This histogram looks suspicious because the vast majority of employees are paid between $40k and $50k.
 
 3. A bar chart of average salary by title was created. ![Average Salary by Title](/EmployeeSQL/Average_Salary_Title.jpg)
+This bar chart also looks as though it is using manufactured data, since it is unlikely that all the job titles would have roughly the same salary avearage.
 
 ## Epilogue
 
