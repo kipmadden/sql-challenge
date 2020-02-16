@@ -6,7 +6,7 @@
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+In this assignment, we designed tables to hold data in the CSVs, imported the CSVs into the SQL database, and answered questions about the data. The major parts were:
 
 1. Data Modeling
 
@@ -48,7 +48,7 @@ The following queries were then created and stored in the [SQL Queries](/Employe
 
 ## Bonus (Optional)
 
-As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
+As we examined the data, we were overcome with a creeping suspicion that the dataset is fake. We surmised that our boss handed us spurious data in order to test our data engineering skills since we were a new employee. To confirm our hunch, we decided to take the following steps to generate a visualization of the data, with which we will confront our boss:
 
 1. The SQL database was imported into Pandas using a .gitignore and a config.py file to store the username/password to connect to the database.
 
