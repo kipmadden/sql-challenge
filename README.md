@@ -1,5 +1,4 @@
-# sql-challenge: SMU Data Science Bootcamp SQL Challenge assignment
-# Employee Database: A Mystery in Two Parts
+# sql-challenge: Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
 
@@ -23,7 +22,7 @@ The provided CSVs were inspected and an ERD of the tables was created using [htt
 
 #### Data Engineering
 
-* Using the six CSV files in the [data](/data) directory a table schema was created:[SQL Table Schema](/EmployeeSQL/EmployeeSQL_TableSchemata.sql)
+* Using the six CSV files in the [data](/data) directory a table schema was created: [SQL Table Schema](/EmployeeSQL/EmployeeSQL_TableSchemata.sql)
 
 * The data in each CSV file was then imported into the corresponding SQL table.
 
