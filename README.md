@@ -50,7 +50,7 @@ The following queries were then created and stored in the [SQL Queries](/Employe
 
 As we examined the data, we were overcome with a creeping suspicion that the dataset is fake. We surmised that our boss handed us spurious data in order to test our data engineering skills since we were a new employee. To confirm our hunch, we decided to take the following steps to generate a visualization of the data, with which we will confront our boss:
 
-1. The SQL database was imported into Pandas using a .gitignore and a config.py file to store the username/password to connect to the database.
+1. The SQL database was imported into Pandas using a .gitignore and a config.py file to store the username/password to connect to the database. The Jupyter notebook can be found here: [Jupyter notebook](SQL_Challenge.ipynb)
 
 2. A histogram was created to visualize the most common salary ranges for employees. It was $40,000-$50,000 for the majority of the employees.
 ![Histogram of Salaries](/EmployeeSQL/Salary_Histogram.jpg)
